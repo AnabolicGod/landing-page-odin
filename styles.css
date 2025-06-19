@@ -108,7 +108,7 @@ a:active {
     display: flex;
     flex-direction: column;
     align-items: center;
-    max-width: 800px;
+    max-width: 900px;
     margin: 0 auto;
     padding: 50px 0;
     gap: 15px;
@@ -121,11 +121,16 @@ a:active {
 }
 
 .info_img {
-    max-width: 150px;
+    max-width: 175px;
+    height: auto;
 }
 
 .info_img img {
-    border-radius: 5px;
+    border-radius: 15px;
+    border: 3px solid #3882F6;
+    height: 175px;
+    width: 175px;
+    object-fit: cover;
 }
 
 figcaption {
